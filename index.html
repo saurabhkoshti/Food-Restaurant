@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Restaurant | Home</title>
+    <!--Bootstrap Icons-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./public/styles.css">
+</head>
+<body>
+    <!--Outer Navigation-->
+    <div class="outer-navigation">
+        <div class="nav-content">
+            <nav class="navigation" role="navigation">
+                <ul class="left-navigation">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="./public/about.html">About Us</a></li>
+                </ul>
+                <div class="right-navigation">
+                    <a href="./public/login.html" class="login-link">Login</a>
+                </div>
+            </nav>
+            <div class="main-title-container">
+                <h1 class="main-title">Best Food in the Hyderabad</h1>
+                <button>Explore</button>
+            </div>
+            <!--Arrow-Down-->
+            <div>
+                <i class="bi bi-chevron-down arrow-down-navigation" id="scroll-icon"></i>
+            </div>
+            <div class="mobile-navigation">
+                <i class="bi bi-list"></i>
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="./public/about.html">About Us</a></li>
+                    <li><a href="./public/login.html">Login</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <main>
+        <div class="food-row">
+            <div class="img-container">
+                <img src="https://images.unsplash.com/photo-1670659337157-2be618038471?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80" alt="food">
+            </div>
+            <div class="text-container">
+                <h2>Cuisines</h2>
+                <p>
+                    The best cuisines you will find in the world here
+                </p>
+            </div>
+        </div>
+        <div class="food-row">
+            <div class="text-container">
+                <h2>Cuisines</h2>
+                <p>
+                    The best cuisines you will find in the world here
+                </p>
+            </div>
+            <div class="img-container">
+                <img src="https://images.unsplash.com/photo-1675670497153-c12fc36d2fd2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80" alt="food">
+            </div>
+        </div>
+        <div class="our-mission">
+            <h2 class="text-center">Our Mission</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat quas natus laudantium consectetur inventore totam labore unde! Omnis nemo repellat consequatur doloribus. Exercitationem velit repellat ex quia, nemo sed minima.
+            </p>
+            <button>Learn more</button>
+        </div>
+        <div class="contact-form">
+            <form>
+                <h2>Contact Us</h2>
+                <label for="name">Your Name:</label>
+                <input type="text" placeholder="Your Name" id="name" required><br>
+                <label for="email">Your Email:</label>
+                <input type="email" placeholder="Your Email" id="email" required><br>
+                <label for="message">Your message:</label><br>
+                <textarea id="message" rows="8" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <p>&copy;Small Fictional Restaurant Website</p>
+    </footer>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js" integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./index.js"></script>
+</body>
+</html>
